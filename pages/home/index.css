@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 1px solid green;
-}
+} */
 
 :root{
     --azul:#404eed;
@@ -135,6 +135,7 @@
 .f1-button-black:hover{
     background-color: var(--preto);
 }
+
 /* Body */
 /* field two */
 .field-2{
@@ -170,7 +171,6 @@
     margin: 0 40px;
 }
 
-/* Body */
 /* field tree */
 .field-3{
     display: flex;
@@ -181,7 +181,6 @@
     padding: 110px 0;
 }
 
-/* Body */
 /* field four */
 .field-4{
     display: flex;
@@ -237,4 +236,105 @@
 .f4-button-blue{
     background-color: var(--azul) !important;
     color: var(--branco) !important;
+}
+
+/* Footer */
+/* Field-finale one */
+
+.field-finale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--cromo);
+}
+
+.field-finale1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ff-1{
+    width: 300px;
+    padding-top: 40px;
+    margin: 0px 50px;
+}
+
+.ff-1 > h1{
+    color: var(--azul);
+    font: 32px 'Discord5';
+    width: 260px;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
+
+.ff-select{
+    color: var(--branco);
+    background-color: var(--cromo);
+    font: 16px 'Discord6';
+    width: 260px;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
+
+.ff-rede > a svg{
+    color: var(--branco);
+    margin: 0px 5px;
+}
+
+.ff-2{
+    width: 800px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.ff-2 li ul{
+    margin: 0px 30px;
+    justify-content: center;
+}
+.ff-2 li{
+    font: 15px 'Discord3';
+    color: #404eed;
+    justify-content: center;
+    list-style-type: none;
+}
+.ff-2 ul{
+    justify-content: center;
+}
+
+.ff-2 li > ul > a{
+    text-decoration: none;
+    justify-content: center;
+    font: 15px 'Discord3';
+    color: var(--branco);
+}
+
+.ff-3{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.field-separator{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    margin-bottom: 32px;
+    background-color: var(--azul);
+}
+
+/* Field-finale two */
+.field-finale2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px; 
+}
+
+.field-finale2 svg{
+    color: var(--branco);
+    margin-right: 700px;
 }
