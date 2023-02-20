@@ -1,0 +1,30 @@
+/* CSS de fonts */
+@font-face {
+    font-family: 'Discord1';
+    src: url('../src/assets/fonts/Discord1.woff2');
+}
+
+@font-face {
+    font-family: 'Discord2';
+    src: url('../src/assets/fonts/Discord2.woff2');
+}
+
+@font-face {
+    font-family: 'Discord3';
+    src: url('../src/assets/fonts/Discord3.woff2');
+}
+
+@font-face {
+    font-family: 'Discord4';
+    src: url('../src/assets/fonts/Discord4.woff2');
+}
+
+@font-face {
+    font-family: 'Discord5';
+    src: url('../src/assets/fonts/Discord5.woff2');
+}
+
+@font-face {
+    font-family: 'Discord6';
+    src: url('../src/assets/fonts/Discord6.woff2');
+}

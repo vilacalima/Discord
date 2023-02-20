@@ -1,0 +1,95 @@
+:root{
+    --azul:#5865f2;
+    --preto:#23272a;
+    --branco:#ffffff;
+}
+
+/* Identificando a cor da página */
+#top{
+    background: var(--azul);
+}
+
+h1{
+    color: var(--branco);
+}
+
+a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+p{
+    color: var(--branco);
+}
+
+#top-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Campo header menu */
+#menu{
+    padding:0px;
+    margin:0px;
+    margin:0px;  
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 2px 2px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--branco)
+}
+
+#menu ul li a:hover { 
+    
+}
+
+.top-icone{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 2px;
+    text-align: center;
+}
+
+
+/* Configuração grid */
+
+.initial{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 200px 800px 200px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    /* box-sizing: border-box; */
+    /* max-width: 60rem; */
+}
+
+.text-header{
+    display: grid;
+    grid-template-areas: 800px;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+/* Área de botões */
+.button-login{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
