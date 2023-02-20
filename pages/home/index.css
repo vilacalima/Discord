@@ -1,6 +1,6 @@
-/* *{
+*{
     border: 1px solid green;
-} */
+}
 
 :root{
     --azul:#404eed;
@@ -23,7 +23,7 @@
     background-color: var(--azul);
     background-image: url("../../src/assets/images/header-cloud.svg");
     background-size: cover ;
-    background-position: -650px 0px;
+    background-position: -380px 0px;
 
     position: relative;
     overflow: hidden;
@@ -36,19 +36,18 @@
 
 .field-1 a:hover{
     box-shadow: 0px 8px 15px var(--cromo);
-    color: var(--azul);
 }
 
 .f1-img1{
     position: absolute;
     bottom: 0px;
-    left: -100px;
+    left: -50px;
 }
 
 .f1-img2{
     position: absolute;
     bottom: 0px;
-    right: -100px;
+    right: -50px;
 }
 
 .f1-initial{
@@ -58,7 +57,7 @@
     justify-content: space-between;
     align-items: center;
     width: 1150px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .f1-initial > a{
@@ -71,16 +70,16 @@
 }
 
 .field-1 > h1{
-    font: 56px 'Discord1';
-    width: 350;
+    font: 56px 'Discord5';
+    width: 480px;
     text-align: center;
-    line-height: 45px;
-    margin-bottom: 50px;
+    line-height: 60px;
+    margin-bottom: 15px;
 }
 
 .field-1 > p{
     font: 20px 'Discord6';
-    width: 775;
+    width: 775px;
     text-align: center;
     line-height: 32px;
     margin-bottom: 30px;
@@ -111,8 +110,9 @@
     color: var(--cromo);
     padding: 15px 30px;
     border-radius: 30px;
-    margin: 0px 15px;
-
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
     display: flex;
     align-items: center;
     transition: 0.2s;
@@ -153,10 +153,6 @@
     width: 370px;
 }
 
-.field-2 > img{
-
-}
-
 .f2-text h1{
     font: 48px Discord2;
     color: var(--preto);
@@ -172,4 +168,73 @@
 
 .field-2 > *{
     margin: 0 40px;
+}
+
+/* Body */
+/* field tree */
+.field-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gelo);
+    padding: 110px 0;
+}
+
+/* Body */
+/* field four */
+.field-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gelo);
+    padding: 90px 0;
+}
+
+.field-4 h1{
+    font: 40px Discord5;
+    color: var(--preto);
+    line-height: 120%;
+    margin-bottom: 24px;
+    width: 700px;
+    text-align: center;
+}
+
+.field-4 h2{ 
+    font: 32px Discord1;
+    color: var(--preto);
+    line-height: 120%;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    width: 800px;
+    text-align: center;
+
+    padding: 20px 0px;
+    background-image: url("../../src/assets/images/image-body6.svg");
+    background-size: cover ;
+    background-position: 0px 0px;
+
+}
+
+.field-4 p{
+    font: 20px 'Discord6';
+    width: 900px;
+    text-align: center;
+    color: var(--preto);
+    line-height: 1.625;
+}
+
+.field-4 img{
+    width: 70%;
+    height: 70%;
+    overflow: hidden;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.f4-button-blue{
+    background-color: var(--azul) !important;
+    color: var(--branco) !important;
 }
