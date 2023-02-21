@@ -1,7 +1,3 @@
-/* *{
-    border: 1px solid green;
-} */
-
 :root{
     --azul:#404eed;
     --preto:#23272a;
@@ -18,7 +14,6 @@
     
     align-items: center;
     padding: 20px 0px 90px 0px;
-
     color: var(--branco);
     background-color: var(--azul);
     background-image: url("../../src/assets/images/header-cloud.svg");
@@ -41,7 +36,7 @@
 .f1-img1{
     position: absolute;
     bottom: 0px;
-    left: -50px;
+    left: -120px;
 }
 
 .f1-img2{
@@ -234,8 +229,14 @@
 }
 
 .f4-button-blue{
+    font: 16px 'Discord6' !important;
     background-color: var(--azul) !important;
     color: var(--branco) !important;
+    padding: 8px 20px !important;
+    border-radius: 30px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 /* Footer */
@@ -244,12 +245,11 @@
 .field-finale{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background-color: var(--cromo);
 }
 
 .field-finale1{
-    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -284,30 +284,34 @@
 }
 
 .ff-2{
+    display: flex;
+    justify-content: center;
     width: 800px;
     padding-top: 80px;
     display: flex;
     flex-direction: row;
 }
-.ff-2 li ul{
-    margin: 0px 30px;
-    justify-content: center;
-}
-.ff-2 li{
-    font: 15px 'Discord3';
-    color: #404eed;
-    justify-content: center;
-    list-style-type: none;
-}
-.ff-2 ul{
-    justify-content: center;
+
+.ff2-list{
+    width: 200px;
+    flex-direction: column;
 }
 
-.ff-2 li > ul > a{
+.ff2-list p{
+    display: flex;
+    font: 15px 'Discord6';
+    color: #404eed;
+    justify-content: left;
+    text-align: left;  
+   
+}
+
+.ff2-list a{
     text-decoration: none;
-    justify-content: center;
-    font: 15px 'Discord3';
+    font: 15px 'Discord6';
     color: var(--branco);
+    display: flex;
+    margin-bottom: 10px;
 }
 
 .ff-3{
@@ -318,23 +322,22 @@
 
 
 .field-separator{
-    width: 900px;
-    display: flex;
-    justify-content: center;
+    width: 1200px;
     height: 1px;
-    margin-bottom: 32px;
     background-color: var(--azul);
+    margin-top: 50px;
 }
 
 /* Field-finale two */
 .field-finale2{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
-    padding: 100px; 
+    padding: 30px; 
 }
 
 .field-finale2 svg{
     color: var(--branco);
-    margin-right: 700px;
+    margin-right: 900px;
 }
