@@ -1,0 +1,56 @@
+:root{
+    --azul:#404eed;
+    --preto:#23272a;
+    --branco:#ffffff;
+    --gelo:  #f6f6f6;
+    --cromo: #23272a;
+}
+
+.menu{
+    display:flex;
+    flex-direction: column;
+    width:1920px;
+    height: 20px;
+    align-items: center;
+    padding: 20px 0px 90px 0px;
+    color: var(--branco);
+    background-color: var(--azul);
+    background-size: cover ;
+    background-position: -380px 0px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.f1-initial{
+    display:flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin-bottom: 100px;
+}
+
+.f1-initial > a{
+    font: 16px 'Discord3';
+    background-color: var(--branco);
+    color: var(--cromo);
+    padding: 10px 13px;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+
+.f1-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.f1-menu a{
+    margin: 5px 20px;
+    font: 16px 'Discord3';
+}
+
+.f1-menu a:hover{
+    text-decoration: underline;
+}

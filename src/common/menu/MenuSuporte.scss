@@ -1,0 +1,48 @@
+:root{
+    --azul:#404eed;
+    --preto:#23272a;
+    --branco:#ffffff;
+    --gelo:  #f6f6f6;
+    --cromo: #23272a;
+}
+
+.menuSuporte{
+    color: var(--azul);
+    background-color: var(--branco);
+    width:1920px;
+    height: 50px;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+}
+
+.menuSuporte-m1 a{
+    font: 12px 'Discord3';
+    color: var(--azul);
+    border-radius: 30px;
+    margin: 5px 20px;
+}
+
+.menuSuporte-m1 a:hover{
+    text-decoration: underline;
+}
+
+.menuSuporte svg{
+    margin-left: 220px;
+    margin-right: 340px;
+    
+    height: 50%;
+}
+
+.menuSuporte-m1 select{
+    font: 12px 'Discord3';
+    color: var(--azul);
+    border: none;
+}
+
+.menuSuporte option{
+    font: 12px 'Discord3';
+    color: var(--cromo);
+    border-radius: 0%;
+    margin-left: 10px;
+}

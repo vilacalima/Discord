@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Discord1';
+    src: url('../../assets/fonts/Discord1.woff2');
+}
+
+@font-face {
+    font-family: 'Discord2';
+    src: url('../../assets/fonts/Discord2.woff2');
+}
+
+@font-face {
+    font-family: 'Discord3';
+    src: url('../../assets/fonts/Discord3.woff2');
+}
+
+@font-face {
+    font-family: 'Discord4';
+    src: url('../../assets/fonts/Discord4.woff2');
+}
+
+@font-face {
+    font-family: 'Discord5';
+    src: url('../../assets/fonts/Discord5.woff2');
+}
+
+@font-face {
+    font-family: 'Discord6';
+    src: url('../../assets/fonts/Discord6.woff2');
+}
+
+:root {
+    --azul: #5865f2;
+    --cinza: #5e6772;
+    --branco: #ffffff;
+    --gelo: #f6f6f6;
+    --cinzaClaro: #cccfd1;
+    --cinzaMaisClaro: #d1d5d8;
+}
+
+.card-conteudo {
+    flex-direction: column;
+    width: 230px;
+    height: 270px;
+    border: solid 1px;
+    border-color: var(--cinzaMaisClaro);
+    border-radius: 2%;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.card-conteudo :hover{
+    background-color: var(--cinzaClaro);;
+}
+
+.card-conteudo h1 {
+    color: var(--azul);
+    font: 20px 'Discord3';
+    text-align: center;
+    margin: 1px;
+}
+
+.card-conteudo p {
+    color: var(--cinza);
+    font: 14.4px 'Discord4';
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    margin: 0px 10px;
+}
+
+.card-conteudo img {
+    width: 55%;
+    height: 40%;
+    align-items: center;
+    overflow: hidden;
+    margin: 0px 60px;
+    
+}
+
+.card-separator {
+    width: 70px;
+    height: 1px;
+    background-color: var(--cinzaClaro);
+    margin: 10px 80px;
+    align-items: center;
+}

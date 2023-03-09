@@ -1,0 +1,155 @@
+:root{
+    --azul:#404eed;
+    --preto:#23272a;
+    --branco:#ffffff;
+    --gelo:  #f6f6f6;
+    --cromo: #23272a;
+}
+
+/* Header */
+/* field one */
+.field{
+    display:flex;
+    flex-direction: column;
+    width:1920px;
+    height: auto;
+    align-items: center;
+    padding: 20px 0px 90px 0px;
+    color: var(--branco);
+    background-color: var(--azul);
+    background-image: url("../../assets/images/header-cloud.svg");
+    background-size: cover ;
+    background-position: -380px 0px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.field a{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.field a:hover{
+    box-shadow: 0px 8px 15px var(--cromo);
+}
+
+.f1-img1{
+    position: absolute;
+    bottom: 0px;
+    width: 70%;
+    height: 70%;
+    left: -480px;
+}
+
+.f1-img2{
+    position: absolute;
+    bottom: 0px;
+    width: 70%;
+    height: 70%;
+    right: -440px;
+}
+
+.f1-initial{
+    display:flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin-bottom: 100px;
+}
+
+.f1-initial > a{
+    font: 16px 'Discord3';
+    background-color: var(--branco);
+    color: var(--cromo);
+    padding: 10px 13px;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+
+.field > h1{
+    font: 56px 'Discord5';
+    width: 480px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.field > p{
+    font: 20px 'Discord6';
+    width: 775px;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.field > h2{
+    font: 100px 'Discord2';
+    width: 480px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.f1-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.f1-menu a{
+    margin: 5px 20px;
+    font: 16px 'Discord3';
+}
+
+.f1-menu a:hover{
+    text-decoration: underline;
+}
+
+.f1-button{
+    display: flex;
+    flex-direction: row;
+}
+
+.f1-button > a{
+    font: 20px 'Discord6';
+    background-color: var(--branco);
+    color: var(--cromo);
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.f1-button > a:hover{
+    box-shadow: 0px 8px 15px var(--cromo);
+    color: var(--azul);
+}
+
+.s1-button > a > svg{
+    margin-right: 10px;
+}
+
+.f1-button-black{
+    background-color: var(--cromo) !important;
+    color: var(--branco) !important;
+}
+
+.f1-button-black:hover{
+    background-color: var(--preto);
+}
+
+.f1-search{
+    display: flex;
+    
+}
+
+.f1-search input{
+    display: flex;
+    width: 300px;
+}
